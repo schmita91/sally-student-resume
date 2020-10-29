@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+header div img {
+    align-self: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border: solid 5px;
+    border-color: black;
+    border-radius: 8px;
+    width: 200px;
+    height: auto;
+}
+
+p, ul, li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+}
+
+section {
+    border: solid 3px;
+    border-radius: 8px;
+    border-color: black;
+    margin: 40px;
+    padding: 40px;
+}
